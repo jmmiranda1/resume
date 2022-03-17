@@ -1,0 +1,71 @@
+.img {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+  }
+
+img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-family: "Arial", sans-serif;
+}
+
+h2 {
+    font-family: "Arial", sans-serif;
+}
+ul li {
+    font-family: "Arial", sans-serif;
+}
+
+p {
+    font-family: "Arial", sans-serif;
+}
+
+header {
+    
+}
+
+body{
+    background-color: #d3d1d8;
+}
+
+.section1 {
+    background-color: #f3f3f3;
+}
+.personalinfo {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    
+}
+
+.personalinfo h1 {
+    font-family: "Arial", sans-serif;
+}
+
+.summary {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.summary h1 {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.skills {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.skills h1 {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+} 

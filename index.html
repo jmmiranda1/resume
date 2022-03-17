@@ -3,12 +3,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Juan Miranda Resume</title>
-</head>
+</header>
 <nav>
     <ul>
 
@@ -17,16 +17,21 @@
 </nav>
 
 <body>
+    <div class="section1">
+        <div class="img">
+            <img src="portrait2.jpeg" alt="Avatar">
 
-    <div class="personalinfo">
-        <h1>Juan Miranda</h1>
-        <ul>
-            <li>Remote | Sacramento, CA</li>
-            <li>916.517.3915</li>
-            <li>j.m.miranda@outlook.com</li>
-        </ul>
+        </div>
+
+        <div class="personalinfo">
+            <h1>Juan Miranda</h1>
+            <ul>
+                <li>Remote | Sacramento, CA</li>
+                <li>916.517.3915</li>
+                <li>j.m.miranda@outlook.com</li>
+            </ul>
+        </div>
     </div>
-
     <div class="summary">
         <h1>SUMMARY</h1>
         <p>I am a Cloud and Devops engineer with 10 years of experience.</p>
@@ -48,36 +53,78 @@
         <h2>Cloud Operations Manager | C Space | Boston, MA</h2>
         <p>Brief company summary</p>
         <ul>
-            <li>Cloud and devops manager, responsible for cloud production environment and deployment pipelines.
-            </li>
+            <li>Responsible for cloud dev, qa, staging, production, and disaster recovery environments, primarily hosted
+                on Azure with some components on AWS and Google</li>
+            <li>Responsible for CI/CD pipelines hosted on Jenkins and Octopus deploy, additionally responsible for
+                refactring builds and releases in Azure DevOps</li>
+            <li>Collaborated with Software Technical Architects in modernizing C Space app by deploying microservices to
+                serverless infrastructure such as; Azure cognitive search, Azure service bus, Azure functions</li>
+            <li>Refactored deployment pipelines using Octopus Deploy by reworking PowerShell deployment scripts and
+                introducing Mabl integrated frontend testing</li>
+            <li>Created SQL scripts to administer and maintain production SQL databases, my team was primarily
+                responsible for all database operations</li>
+            <li>Migrated infrastructure services from a single subscription to subscriptions per environment in order to
+                increase security and management</li>
         </ul>
 
         <h2>Systems Engineer | Certent, Inc. | Roseville, CA</h2>
         <p>Brief company summary</p>
         <ul>
-            <li>IT engineer and administrator, responsible for corporate networks and Windows server infrastructure.
+            <li>Supported Software and DevOps engineers in configuring, deploying, and troubleshooting SaaS environments
+                hosted on Azure and on-prem infrastructure (VMware)</li>
+            <li>Designed, configured, and deployed Cisco Firepower firewalls in a high-availability cluster using a
+                virtualized FMC hosted on VMware 6</li>
+            <li>Procured, implemented, and configured Okta IAM solution to establish automated workflows and security
+                baselines.</li>
+            <li>Procured, implemented, and configured a 3-2-1 backup solution with Veeam, Azure Storage, and Dell
+                hardware</li>
+            <li>Implemented and deployed Cisco AnyConnect VPN (replacing SonicWall VPN client), allowing for a 100%
+                remote workforce as a reaction to the COVID pandemic | New solution improved network metrics and
+                security</li>
+            <li>Wrote PowerShell scripts to automate config deployments across product environments; leveraged existing
+                config management tools, such as SCCM and PDQ Deploy, to push a desired state configuration on servers
             </li>
         </ul>
 
         <h2>Systems Administrator | Revenue Solutions, Inc. | Roseville, CA</h2>
         <p>Brief company summary</p>
         <ul>
-            <li>IT engineer/administrator for company Windows/.Net infrastructure: AD/AAD, DNS, DHCP, Exchange
-                2013/O365,
-                IIS, SQL.</li>
+            <li>Supported dev and support engineers in configuring, deploying, and troubleshooting product environments
+                hosted on Windows and Azure infrastructure</li>
+            <li>Systems administrator for FortiGate firewalls, Dell/HP switches, VMware clusters and Hyper-V clusters
+            </li>
+            <li>Wrote PowerShell scripts to automate infrastructure provisioning, servers, and configuration changes
+            </li>
+            <li>Automated image deployment using MDT/WDS and implemented SCCM for server and desktop management</li>
+            <li>Implemented ticketing system to promote IT team collaboration and create workflows from engineer and end
+                user requests, provided reports and metrics</li>
+            <li>Implemented, configured, and deployed AD Federation Services to provide SSO with 3rd party apps, i.e.
+                LinkedIn</li>
+            <li>Assisted in configuration and deployment of O365 and Azure infrastructure migration projects - lift and
+                shift </li>
+            <li>Assisted and maintained TFS 2015/17, TFVC repos and its SQL databases</li>
         </ul>
 
         <h2>IT Support | Brown & Brown Insurance | Rocklin, CA</h2>
         <p>Brief company summary</p>
         <ul>
-            <li>IT support for local and remote users.</li>
+            <li>Provided IT support for local and remote sites supporting various infrastructure architecture
+            </li>
+            <li>Systems administrator for Windows server infrastructure: AD, DNS, DHCP, File servers, Hyper-V
+            </li>
+            <li>Systems addministrator for local and remote network infrastructure: SW/Dell/Cisco/HP/Barracuda
+                firewalls, switches, LBs
+            </li>
+            <li>Automated Windows 7 image deployment for end users across various sites
+            </li>
         </ul>
     </div>
 
     <div class="education">
         <h1>EDUCATION</h1>
         <h2>Arizona State University</h2>
-        <p>B.S Information Technology</p>
+        <h3>Ira A. Fulton Schools of Engineering</h3>
+        <p>Bachelor of Science - Information Technology</p>
 
     </div>
 
@@ -85,15 +132,10 @@
         <h1>CERTIFICATIONS</h1>
 
         <h2>Microsoft Certifications</h2>
-        <ul>
-            <li>Azure Administrator</li>
-            <li>Windows Server 2016 | MCSA Server 2016</li>
-        </ul>
+        <p>Microsoft Certififed: DevOps Engineer Expert</p>
+        <p>Microsoft Certified: Azure Administrator Associate</p>
+        <p>Microsoft Certified Solutions Associate Windows Server 2016 (MCSA)</p>
 
-        <h2>Cisco Certifications</h2>
-        <ul>
-            <li>Cisco Certified Network Associate Routing and Switching | CCNA R&S</li>
-        </ul>
     </div>
 
 
