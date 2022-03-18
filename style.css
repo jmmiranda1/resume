@@ -38,10 +38,14 @@ header {
 }
 
 body{
-    background-color: #d3d1d8;
+    background-color: 
 }
 
 .section1 {
+    background-color: 
+}
+
+.section2 {
     background-color: #f3f3f3;
 }
 .personalinfo {
@@ -53,6 +57,21 @@ body{
 
 .personalinfo h1 {
     font-family: "Arial", sans-serif;
+    
+}
+
+.personalinfo ul {
+    list-style-type: none;
+    
+}
+
+.personalinfo li {
+    display: inline;
+}
+
+.personalinfodetails{
+    margin: auto;
+
 }
 
 .summary {
