@@ -61,7 +61,7 @@ body{
     margin: auto;
 }
 
-.summary h1 {
+.summary h2 {
     width: fit-content;
     height: fit-content;
     margin: auto;
@@ -73,8 +73,44 @@ body{
     margin: auto;
 }
 
-.skills h1 {
+.skills h2 {
     width: fit-content;
     height: fit-content;
     margin: auto;
 } 
+
+.experience {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.experience h2 {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.education {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.education h2 {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.certifications {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.certifications h2 {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
