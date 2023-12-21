@@ -40,7 +40,7 @@ header {
 body{
     margin: auto;
     padding: 0;
-    width: 75%;
+    width: 100%;
     display: flex;
 }
 
